@@ -1,0 +1,16 @@
+#Відома грошова сума. Розміняти її купюрами 200, 100, 10 і монетою 1 грн.,
+#якщо це можливо.
+summ = int (input ('Enter the summ of money to be changed:\n'))
+if summ < 1 :
+    print ('Invalid data')
+else :
+    a = summ // 200
+    print ('The quantity of 200 grn is:', a)
+    b = (summ % 200) // 100
+    print ('The quantity of 100 grn is:',b)
+    c = (summ - a * 200 - b * 100 ) // 10
+    print ('The quantity of 10 grn is:', c)
+    d = (summ - a * 200 - b * 100 - c * 10)
+    print ('The quantity of 1 grn is:', d)
+        
+    
