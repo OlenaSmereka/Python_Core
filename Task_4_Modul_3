@@ -1,0 +1,11 @@
+#Чи можна в квадратному залі площею S помістити круглу сцену радіусом R так,
+#щоб від стіни до сцени був прохід не менше K
+import math
+square_area = int(input ('Enter the area of the square please:\n'))
+radius = int (input ('Enter the radius, please:\n'))
+k = int (input ('Enter the passage, please:\n'))
+side = math.sqrt (square_area)
+if k <= side / 2 - radius:
+    print ('The circle fit into the square\n')
+else :
+    print ('The circle doesnt fit into the square\n')
