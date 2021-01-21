@@ -1,0 +1,6 @@
+#По двом введеним катетам обчислити довжину гіпотенузи
+import math
+first_leg = int (input ('Enter the first leg/side:\n'))
+second_leg = int (input ('Enter the second leg/side:\n'))
+hypotenuse = math.sqrt (first_leg ** 2 + second_leg ** 2)
+print ("The hypotenuse is:", hypotenuse)
