@@ -1,0 +1,21 @@
+#Залежно від вибору користувача, обчислити площу або прямокутника,
+#або трикутника, або круга. Якщо обрані прямокутник або трикутник,
+#то треба запросити довжини сторін; круга – його радіус.
+rectangle = ('rectangle', '1')
+triangle = ('triangle', '2')
+circle = ('circle', '3')
+geometric_figure = input ('Choose the figure, please (rectangle,triangle,circle):\n')
+if geometric_figure in rectangle:
+    width = int (input ('Enter the width:\n'))
+    hight = int (input('Enter the hight:\n'))
+    S = width * hight
+    print ('The area of rectangle is:', S)
+elif geometric_figure in triangle :
+    base_side = int (input ('Enter the base_side:\n'))
+    hight = int (input('Enter the hight:\n'))
+    S = (base_side * hight) / 2
+    print ('The area of triangle is:', S)
+else :
+    radius = int (input ('Enter the radius:\n'))
+    S = 3.14 * radius ** 2
+    print ('The area of the circle is:', S)
