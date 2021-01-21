@@ -1,4 +1,3 @@
-#Задана вага в грамах. Визначити вагу в тонах і кілограмах.
 weight_in_g = int (input ("Enter weight in grams: \n"))
 weight_in_kg = weight_in_g * 0.001
 weight_in_t = weight_in_kg * 0.001
