@@ -1,0 +1,17 @@
+#Користувач вводить число, програма повинна вивести на екран його опис.
+#Наприклад, «додатне однозначне число», «від’ємне двозначне» тощо
+number = int (input ('Enter any number from -999 to 999:\n'))
+if number >= 0 and number <= 9:
+    print ('The number is positive, single-digit')
+elif number >= 10 and number <= 99 :
+    print('The number is positive, double-digit')
+elif number >= 100 and number <= 999 :
+    print('The number is positive, three-digit')
+elif number < 0 and number >= -9:
+    print ('The number is negative, single-digit')
+elif number <= -10 and number >= -99 :
+    print('The number is negative, double-digit')
+elif number <= -100 and number >= -999 :
+    print('The number is negative, three-digit')
+else :
+    print ('Invalid data')
