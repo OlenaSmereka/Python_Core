@@ -1,0 +1,6 @@
+#Відомий обсяг інформації в байтах. Перевести в кілобайти, мегабайти.
+in_bytes = int (input ("The amount of information in bytes:\n"))
+in_kb = in_bytes / 1024
+in_mb = in_kb / 1024
+print ("The amount of information in kilobytes:\n", in_kb)
+print ("The amount of information in megabytes:\n", in_mb)
