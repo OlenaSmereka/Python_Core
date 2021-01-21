@@ -1,0 +1,7 @@
+#Відомий РІК. Визначити, чи буде цей рік високосним, і до якого століття цей рік відноситься.
+year = int (input ("Enter the year, please:\n"))
+if year % 4 == 0:
+    print ('Leap year')
+else :
+    print ('Not a leap year')
+print (year // 100, 'century')
