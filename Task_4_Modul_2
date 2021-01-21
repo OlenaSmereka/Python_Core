@@ -1,0 +1,7 @@
+#Обчислити площу і периметр прямокутника за заданими шириною і висотою.
+rectangle_width = int (input ("Enter the width:\n"))
+rectangle_height = int (input ("Enter the height:\n"))
+P = (rectangle_width + rectangle_height) * 2
+S = rectangle_width * rectangle_height
+print ("The perimeter of the rectangle is:",P)
+print ("The area of the rectangle is:",S)
