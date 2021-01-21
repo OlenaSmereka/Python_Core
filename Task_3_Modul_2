@@ -1,0 +1,5 @@
+#Користувач вводить два числа. Одне присвоюється одній змінній, а друге - іншій. Необхідно поміняти значення змінних так, щоб значення першої виявилося в другій, а другої - у першій.
+number_1 = input ("Enter the number:\n")
+number_2 = input ("Enter one more number, please:\n")
+number_1, number_2  = number_2, number_1
+print ("Swapped numbers:", number_1, number_2)
