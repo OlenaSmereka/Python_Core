@@ -1,0 +1,4 @@
+print(' Beautiful is better than ugly\n'.upper(),'Explicit is better than implicit\n'.upper(),
+'Simple is better than complex\n'.upper(),'Complex is better than complicated\n'.upper(),'Readability counts\n'.upper())
+print(' Beautiful is better than ugly\n'.lower(),'Explicit is better than implicit\n'.lower(),
+'Simple is better than complex\n'.lower(),'Complex is better than complicated\n'.lower(),'Readability counts\n'.lower())
