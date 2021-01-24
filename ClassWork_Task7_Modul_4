@@ -1,0 +1,20 @@
+msg = 'Olena Smereka '
+print (msg)
+print (msg * 2)
+msg_1 = 'Hello '
+print (msg_1 + msg)
+msg_1 = msg_1.replace ('Hello', 'Hello!')
+print (msg_1 + msg)
+print (msg [:5] + ' ' + 'Borysivna' + ' ' + msg[6:])
+s = 'colorless'
+print (s[:4] + 'u' + s[4:])
+t = 'dishes'
+print (t[:4])
+r = 'running'
+print (r[:3])
+n = 'nationality'
+print (n[:6])
+u = 'undo'
+print (u[:2])
+pr = 'preheat'
+print (pr[:3])
